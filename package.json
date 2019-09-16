@@ -4,10 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./dist/app.js",
-    "dev": "nodemon app.js --exec babel-node",
-    "build": "npm run clean && babel ./showcase -d ./dist",
-    "heroku-postbuild": "npm run build",
+    "start": "nodemon showcase/app.js --exec babel-node",
     "clean": "rm -rf dist"
   },
   "keywords": [],
